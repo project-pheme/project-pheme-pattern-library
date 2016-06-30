@@ -1,5 +1,6 @@
 .tool {
     position: relative;
+    line-height: 1.3;
 
     .tool-heading {
         @extend .caps;
@@ -42,6 +43,17 @@
 
         &.active {
             display: block;
+        }
+    }
+
+    .listing-item {
+
+        .listing-item-primary {
+            padding: $sm-spacing 0;
+
+            .listing-item-image {
+                top: $sm-spacing;
+            }
         }
     }
 }

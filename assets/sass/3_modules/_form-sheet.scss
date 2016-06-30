@@ -41,6 +41,10 @@
             margin: $lg-spacing $base-spacing;
         }
 
+        fieldset {
+            margin: $sm-spacing 0;
+        }
+
         .post-band {
             left: -$sm-spacing;
 
@@ -55,6 +59,10 @@
                     margin-left: 0;
                 }
             }
+        }
+
+        .metadata {
+            margin: $tiny-spacing 0;
         }
 
         &.title {
@@ -102,6 +110,48 @@
         }
     }
 
+    .form-sheet-toolbar {
+        padding-right: $sm-spacing;
+        padding-left: $sm-spacing;
+
+        @include media($medium) {
+            padding-right: $base-spacing;
+            padding-left: $base-spacing;
+        }
+
+        fieldset,
+        button,
+        .button {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: normal;
+            margin: 0 $tiny-spacing 0 0;
+        }
+    }
+
+    .listing {
+
+        .listing-heading {
+            @extend .caps;
+            border-bottom: 1px solid $color-light-gamma;
+            padding: $sm-spacing;
+
+            @include media($medium) {
+                padding-right: $base-spacing;
+                padding-left: $base-spacing;
+            }
+
+            + .listing-item {
+                margin-top: 0;
+            }
+        }
+
+        .listing-body {
+            background-color: $white;
+            box-shadow: 0 1px 4px rgba(0,0,0,.24) inset;
+        }
+    }
+
     .custom-fieldset {
         max-width: none;
     }
@@ -117,6 +167,45 @@
         + .form-field {
             margin-top: -$tiny-spacing;
             margin-bottom: $sm-spacing;
+        }
+    }
+
+    .toolbox {
+
+        @include media($small-down) {
+            width: auto;
+            background-color: transparent;
+            @include no-shadow;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin: $sm-spacing 0;
+        }
+
+        > fieldset {
+            margin: 0 0 $base-spacing;
+        }
+
+        fieldset {
+            margin-right: 0;
+            margin-bottom: $sm-spacing;
+            margin-left: 0;
+        }
+
+        > .form-field {
+            margin: $sm-spacing 0;
+        }
+
+        .form-field {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+
+    [data-toggle-target] {
+        display: none;
+
+        &.active {
+            display: block;
         }
     }
 }
