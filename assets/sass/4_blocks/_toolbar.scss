@@ -17,14 +17,14 @@
         display: none;
 
         @include media($medium) {
-            display: block;
+            display: none;
             position: absolute;
             top: 100%;
             left: $base-spacing;
             margin-top: -27px;
 
             + .searchbar {
-                margin-left: $base-spacing+54;
+                // margin-left: $base-spacing+54;
             }
         }
     }
