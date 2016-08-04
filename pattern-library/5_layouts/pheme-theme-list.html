@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+@@include('../partials/_pl-head.html')
+
+<body class="layout-a">
+
+    @@include('../partials/_mode-bar.html', {
+      "context": "timeline"
+    })
+
+    @@include('../partials/_mode-context.html')
+
+   <main role="main">
+       @@include('../partials/_toolbar.html')
+
+
+         <div class="main-col">
+
+            <div class="toolbox">
+
+                <div class="tool">
+                    <h6 class="tool-heading">Status</h6>
+
+                    <span data-toggle="toggle-content">
+                        <svg class="iconic">
+                            <use xlink:href="../../img/iconic-sprite.svg#chevron-bottom"></use>
+                        </svg>
+                        <span class="label hidden">Show/hide</span>
+                    </span>
+
+                    <div class="toggle-content active">
+                        <fieldset>
+                            <legend class="hidden">Status</legend>
+
+                            <div class="form-field checkbox icon-input">
+                                <label for="published">
+                                    <svg class="iconic">
+                                        <use xlink:href="../../img/iconic-sprite.svg#globe"></use>
+                                    </svg>
+                                    <input checked type="checkbox" id="published">
+                                    Published
+                                </label>
+                            </div>
+
+                            <div class="form-field checkbox icon-input">
+                                <label for="review">
+                                    <svg class="iconic">
+                                        <use xlink:href="../../img/iconic-sprite.svg#lock-locked"></use>
+                                    </svg>
+                                    <input checked type="checkbox" id="review" />
+                                    Under review
+                                </label>
+                            </div>
+
+                            <div class="form-field checkbox icon-input">
+                                <label for="archive">
+                                    <svg class="iconic">
+                                        <use xlink:href="../../img/iconic-sprite.svg#box"></use>
+                                    </svg>
+                                    <input checked type="checkbox" id="archive" />
+                                    Archive
+                                </label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <div class="tool">
+                    <h6 class="tool-heading">Date range</h6>
+
+                    <span data-toggle="toggle-content">
+                        <svg class="iconic">
+                            <use xlink:href="../../img/iconic-sprite.svg#chevron-bottom"></use>
+                        </svg>
+                        <span class="label hidden">Show/hide</span>
+                    </span>
+
+                    <div class="toggle-content active">
+                        <fieldset>
+                            <legend class="hidden">Date range</legend>
+
+                            <div class="form-field date">
+                                <label class="hidden">Start date</label>
+                                <div class="input-with-icon">
+                                    <svg class="iconic">
+                                        <use xlink:href="../../img/iconic-sprite.svg#calendar"></use>
+                                    </svg>
+                                    <input type="date" placeholder="Start date" />
+                                </div>
+                                <span class="date-joiner">to</span>
+                            </div>
+
+                            <div class="form-field date">
+                                <label class="hidden">End date</label>
+                                <div class="input-with-icon">
+                                    <svg class="iconic">
+                                        <use xlink:href="../../img/iconic-sprite.svg#calendar"></use>
+                                    </svg>
+                                    <input type="date" placeholder="End date" />
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+
+            <div class="listing timeline">
+
+                <h2 class="listing-heading-section">Today</h2>
+
+                <article class="postcard">
+                    <div class="post-band" todo-style="background-color: #A51A1A;"></div>
+                    <div class="listing-item-select" ng-if="canSelect">
+                        <input type="checkbox" checklist-value="post.id" checklist-model="selectedPosts">
+                    </div>
+                    <div class="postcard-body">
+                        <h1 class="postcard-title"><a href="/pheme/themes/{{post.id}}"><b>Theme</b> ID 1974</h1>
+
+                        <p><i>Started:</i> 2016-08-03 21:15:17</p>
+                        <p><i>Last activity:</i> 2016-08-03 22:39:02</p>
+                        <p><i>Size:</i> 99 <i>tweets</i></p>
+                        <p><i>Speed:</i> 1.4300 <i>tweets/hour</i></p>
+                        <p><i>Number of images:</i> 7</p>
+                        <p><i>Number of articles:</i> 10</p>
+                        <p><i>Presence of verified authors:</i> Yes</p>
+                        <p><i>Controversiality score:</i> 0.80</p>
+
+                        <div>
+                        <b>Featured tweet</b>
+                        <p><img src="http://lorempixel.com/64/64/" width="64" height="64">
+                           <a href="https://twitter.com/sxmmi__">
+                             <i>@sammi</i>
+                            </a>
+                            sammie
+                        </p>
+                        <p>wish i was mwi playing Fifa with nicki</p>
+                        <p><i>2016-07-13T00:44:17+03:00</i></p>
+                        </div>
+                    </div> <!-- /postcard-body -->
+                </article>
+
+                <article class="postcard">
+                    <div class="post-band" todo-style="background-color: #A51A1A;"></div>
+                    <div class="listing-item-select" ng-if="canSelect">
+                        <input type="checkbox" checklist-value="post.id" checklist-model="selectedPosts">
+                    </div>
+                    <div class="postcard-body">
+                        <h1 class="postcard-title"><a href="/pheme/themes/{{post.id}}"><b>Theme</b> ID 1969</h1>
+
+                        <p><i>Started:</i> 2016-08-03 18:18:06</p>
+                        <p><i>Last activity:</i> 2016-08-03 18:32:30</p>
+                        <p><i>Size:</i> 99 <i>tweets</i></p>
+                        <p><i>Speed:</i> 8.3300 <i>tweets/hour</i></p>
+                        <p><i>Number of images:</i> 40</p>
+                        <p><i>Number of articles:</i> 5</p>
+                        <p><i>Presence of verified authors:</i> No</p>
+                        <p><i>Controversiality score:</i> 0.43</p>
+
+                        <div>
+                        <b>Featured tweet</b>
+                        <p><img src="http://lorempixel.com/64/64/" width="64" height="64">
+                           <a href="https://twitter.com/JuttaDurham">
+                             <i>@JuttaDurham</i>
+                            </a>
+                            Trump enthusiast
+                        </p>
+                        <p>@Hopeisalive66 @myGianLuca MSM's polls suggested that Netanyahu was supposed to lose his re-election &amp; #Brexit was supposed to fail! So...</p>
+                        <p><i>2016-08-03T18:18:06+03:00</i></p>
+                        </div>
+                    </div> <!-- /postcard-body -->
+                </article>
+
+                <div class="listing-item">
+                    <div class="listing-item-primary">
+                        <button class="button-flat">Load more</a>
+                    </div>
+                </div>
+
+                <div class="listing-toolbar">
+                    <div class="listing-toolbar-summary">
+                        <strong><span class="total"></span> selected</strong>
+                        <button class="button-link">Deselect</button>
+                    </div>
+
+                    <div class="listing-toolbar-actions">
+
+                        <button class="button-beta" data-toggle="toggle-content">
+                            <span class="button-label">Mark as</span>
+                            <svg class="iconic">
+                                <use xlink:href="../../img/iconic-sprite.svg#chevron-bottom"></use>
+                            </svg>
+                        </button>
+                        <ul class="dropdown-menu toggle-content">
+                            <li>
+                                <a href="">
+                                    <svg class="iconic">
+                                        <use xlink:href="../../img/iconic-sprite.svg#globe"></use>
+                                    </svg>
+                                    <span class="label">Published</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg class="iconic">
+                                        <use xlink:href="../../img/iconic-sprite.svg#lock-locked"></use>
+                                    </svg>
+                                    <span class="label">Under Review</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg class="iconic">
+                                        <use xlink:href="../../img/iconic-sprite.svg#box"></use>
+                                    </svg>
+                                    <span class="label">Archive</span>
+                                </a>
+                            </li>
+                            <div class="divider"></div>
+                            <li>
+                                <a href="">
+                                    Spam
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Duplicates
+                                </a>
+                            </li>
+                        </ul>
+
+                        <button type="button" class="button-beta" data-modal="add-to-collection">
+                            <svg class="iconic">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../img/iconic-sprite.svg#grid-three-up"></use>
+                            </svg>
+                            <span class="button-label">Add to Collection</span>
+                        </button>
+
+                        <button type="button" class="button-destructive">
+                            <svg class="iconic">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../img/iconic-sprite.svg#trash"></use>
+                            </svg>
+                            <span class="button-label hidden">Delete</span>
+                        </button>
+
+                        <button type="button" class="listing-toolbar-toggle more">
+                            <svg class="iconic">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../img/iconic-sprite.svg#ellipses"></use>
+                            </svg>
+                            <span class="button-label">Show more</span>
+                        </button>
+
+                        <button type="button" class="listing-toolbar-toggle less">
+                            <svg class="iconic">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../img/iconic-sprite.svg#x"></use>
+                            </svg>
+                            <span class="button-label">Show less</span>
+                        </button>
+                    </div>
+                </div>
+           </div>
+
+         </div>
+
+    </main>
+
+    <div id="empty" class="message">
+        <div class="message-image">
+            <svg class="iconic">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../img/iconic-sprite.svg#file"></use>
+            </svg>
+        </div>
+
+        <div class="message-body">
+            <p><strong>There are no posts</strong> in this deployment, yet.</p>
+
+            <div class="form-button">
+                <button type="button" class="button-alpha button-dropdown" data-toggle="dropdown-menu">
+                    <svg class="iconic">
+                      <use xlink:href="../../img/iconic-sprite.svg#plus"></use>
+                    </svg>
+                    <span class="button-label">Add post</span>
+                </button>
+
+                <ul class="dropdown-menu">
+                    <li><a href=""><span class="post-band" style="background-color: #A51A1A;"></span>Getting around</a></li>
+                    <li><a href=""><span class="post-band" style="background-color: #E69327;"></span>Police encounters</a></li>
+                    <li><a href=""><span class="post-band" style="background-color: #2274B4;"></span>Protester photos</a></li>
+                    <li><a href=""><span class="post-band" style="background-color: #5BAA00;"></span>Official events</a></li>
+                </ul>
+            </div>
+
+            <button class="button-flat message-trigger">
+                Dismiss
+            </button>
+        </div>
+    </div>
+
+    @@include('../partials/_modals-global.html')
+
+    @@include('../partials/_scripts.html')
+
+    <script>
+    $(document).ready(function(){
+        //messageToggle($('#empty'), true);
+    });
+    </script>
+</body>
+
+</html>
