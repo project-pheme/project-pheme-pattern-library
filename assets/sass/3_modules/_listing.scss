@@ -180,3 +180,71 @@
         }
     }
 }
+
+// My code
+
+// .postcard-field {
+
+//     &.summary-listing{
+//        border-bottom: 1px solid $color-light-gamma;
+//        margin-top: 0;
+//        margin-bottom: 0;
+//        padding-bottom: $sm-spacing;
+
+
+//        &:last-child {
+//                 border-bottom: none;
+//             }
+
+//        h2{
+//         padding-bottom:3px;
+//          padding-top: 15px;
+//        }
+       
+//         p{
+//         margin-top:5px;
+//         margin-bottom: 0;
+//         font-size:12px;
+//        }
+
+//     }
+
+//     &.tweet {
+
+//     }
+// }
+
+.tweet{
+
+}
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  padding: 16px;
+  margin: 10px 0;
+  border: #ddd 1px solid;
+  
+
+  border-radius: 5px;
+  // box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  font: bold 14px/18px Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+blockquote.twitter-tweet img{
+  float:left;
+  margin-right:10px;
+}
+ 
+blockquote.twitter-tweet p {
+  font-weight: normal ;
+  font-size:16px;
+  margin: 0 5px 10px 0;
+  float:left;
+}
+ 
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+}

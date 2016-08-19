@@ -975,70 +975,100 @@
                 <h2 class="listing-heading-section">Today</h2>
 
                 <article class="postcard">
-                    <div class="post-band" todo-style="background-color: #A51A1A;"></div>
+                    <div class="post-band" style="background-color: #2873B9;"></div>
                     <div class="listing-item-select" ng-if="canSelect">
                         <input type="checkbox" checklist-value="post.id" checklist-model="selectedPosts">
                     </div>
                     <div class="postcard-body">
-                        <h1 class="postcard-title"><a href="/pheme/themes/{{post.id}}"><b>Theme</b> ID 1974</h1>
+                      <header class="postcard-header">
+                        <h1 class="postcard-title"><a href="/pheme/themes/{{post.id}}"><b>Theme</b> ID 1974 </a></h1>
+                      </header>
 
-                        <!-- TODO: override post-metadata just like we overrid post-card? -->
-                        <p><i>Started:</i> 2016-08-03 21:15:17</p>
-                        <p><i>Last activity:</i> 2016-08-03 22:39:02</p>
-                        <p><i>Size:</i> 99 <i>tweets</i></p>
-                        <p><i>Speed:</i> 1.4300 <i>tweets/hour</i></p>
-                        <p><i>Number of images:</i> 7</p>
-                        <p><i>Number of articles:</i> 10</p>
-                        <p><i>Presence of verified authors:</i> Yes</p>
-                        <p><i>Controversiality score:</i> 0.80</p>
+                      <div class="postcard-field listing-summary">
+                           <h2 class="form-label">Overview</h2>
+                            <p>Number of images: 7</p>
+                            <p>Number of articles: 10</p> 
+                            <p>Verified authors: Yes </p>
+                            <p>Controversiality score: 0.80</p>                             
+                       </div>
 
-                        <!-- TODO: this whole thing should be in its own directive probably -->
-                        <div>
-                        <b>Featured tweet</b>
-                        <p><img src="http://lorempixel.com/64/64/" width="64" height="64">
-                           <a href="https://twitter.com/sxmmi__">
-                             <i>@sammi</i>
-                            </a>
-                            sammie
-                        </p>
-                        <p>wish i was mwi playing Fifa with nicki</p>
-                        <p><i>2016-07-13T00:44:17+03:00</i></p>
+                       <div class="postcard-field listing-summary">
+                           <h2 class="form-label">Activity</h2>
+                            <p>Started: <em>3rd Aug 2016 6:18pm</em></p> 
+                            <p>Last activity: <em>3rd Aug 2016 10:39pm</em></p>                               
+                       </div>
+                       <div class="postcard-field listing-summary">
+                           <h2 class="form-label">Tweets</h2>
+                           <p>Size: 99 tweets</i></p>
+                           <p>Speed: 1.4300 tweets/hour</i></p>                          
+                       </div>
+
+                       <div class="listing">                        
+                          <div class="listing-item ">    
+                              <h2 class="form-label featured-header">Featured Tweet</h2>                   
+                              <div class="listing-item-primary tweet">
+                                 
+                                 <div class="listing-item-image">
+                                     <img class="avatar" src="http://lorempixel.com/64/64/" alt="">
+                                 </div>
+
+                                  <h2 class="listing-item-title"><a href="">@sammi</a></h2>
+                                  <p class="listing-item-secondary">July 7th 2016 12:44pm</p>
+
+                                  <p>Cras tempus sodales molestie. Ut a ante mollis, dictum nulla quis, accumsan arcu. Donec et lacus libero. Phasellus a ultricies lorem. Ut gravida, nibh a tincidunt auctor</p>
+                               </div>
+                           </div>
                         </div>
                     </div> <!-- /postcard-body -->
                 </article>
 
                 <article class="postcard">
-                    <div class="post-band" todo-style="background-color: #A51A1A;"></div>
+                    <div class="post-band" style="background-color: #2873B9;"></div>
                     <div class="listing-item-select" ng-if="canSelect">
                         <input type="checkbox" checklist-value="post.id" checklist-model="selectedPosts">
                     </div>
                     <div class="postcard-body">
-                        <h1 class="postcard-title"><a href="/pheme/themes/{{post.id}}"><b>Theme</b> ID 1969</h1>
+                      <header class="postcard-header">
+                        <h1 class="postcard-title"><a href="/pheme/themes/{{post.id}}"><b>Theme</b> ID 1974 </a></h1>
+                      </header>
 
-                        <!-- TODO: override post-metadata just like we overrid post-card? -->
-                        <p><i>Started:</i> 2016-08-03 18:18:06</p>
-                        <p><i>Last activity:</i> 2016-08-03 18:32:30</p>
-                        <p><i>Size:</i> 99 <i>tweets</i></p>
-                        <p><i>Speed:</i> 8.3300 <i>tweets/hour</i></p>
-                        <p><i>Number of images:</i> 40</p>
-                        <p><i>Number of articles:</i> 5</p>
-                        <p><i>Presence of verified authors:</i> No</p>
-                        <p><i>Controversiality score:</i> 0.43</p>
+                      <div class="postcard-field listing-summary">
+                           <h2 class="form-label">Overview</h2>
+                            <p>Number of images: 7</p>
+                            <p>Number of articles: 10</p> 
+                            <p>Verified authors: Yes </p>
+                            <p>Controversiality score: 0.80</p>                             
+                       </div>
 
-                        <!-- TODO: this whole thing should be in its own directive probably -->
-                        <div>
-                        <b>Featured tweet</b>
-                        <p><img src="http://lorempixel.com/64/64/" width="64" height="64">
-                           <a href="https://twitter.com/JuttaDurham">
-                             <i>@JuttaDurham</i>
-                            </a>
-                            Trump enthusiast
-                        </p>
-                        <p>@Hopeisalive66 @myGianLuca MSM's polls suggested that Netanyahu was supposed to lose his re-election &amp; #Brexit was supposed to fail! So...</p>
-                        <p><i>2016-08-03T18:18:06+03:00</i></p>
+                       <div class="postcard-field listing-summary">
+                           <h2 class="form-label">Activity</h2>
+                            <p>Started: <em>3rd Aug 2016 6:18pm</em></p> 
+                            <p>Last activity: <em>3rd Aug 2016 10:39pm</em></p>                               
+                       </div>
+                       <div class="postcard-field listing-summary">
+                           <h2 class="form-label">Tweets</h2>
+                           <p>Size: 99 tweets</i></p>
+                           <p>Speed: 1.4300 tweets/hour</i></p>                          
+                       </div>
+
+                       <div class="listing">                        
+                          <div class="listing-item ">    <h2 class="form-label featured-header">Featured Tweet</h2>                   
+                              <div class="listing-item-primary tweet">
+                                 
+                                 <div class="listing-item-image">
+                                     <img class="avatar" src="http://lorempixel.com/64/64/" alt="">
+                                 </div>
+
+                                  <h2 class="listing-item-title"><a href="">@JuttaDurham</a></h2>
+                                  <p class="listing-item-secondary">July 7th 2016 12:44pm</p>
+
+                                  <p>@Hopeisalive66 @myGianLuca MSM's polls suggested that Netanyahu was supposed to lose his re-election &amp; #Brexit was supposed to fail! So...</p>
+                               </div>
+                           </div>
                         </div>
                     </div> <!-- /postcard-body -->
                 </article>
+                
 
                 <div class="listing-item">
                     <div class="listing-item-primary">

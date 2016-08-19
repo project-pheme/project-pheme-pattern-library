@@ -35,6 +35,10 @@
         }
     }
 
+    .form-label {
+       padding-top: $sm-spacing;
+    }
+
     .listing-item-primary {
         position: relative;
         padding: $base-spacing $sm-spacing;
@@ -72,6 +76,17 @@
             text-align: left;
             margin: 4px 0;
         }
+
+        &.tweet {
+            padding-left:0;
+            padding-bottom:0;
+
+            p {
+                margin-top:$tiny-spacing;
+            }
+        }
+
+
     }
 
     .listing-item-secondary {
@@ -359,5 +374,5 @@
                 overflow-y: auto;
             }
         }
-    }
+    }   
 }
