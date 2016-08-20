@@ -80,13 +80,30 @@
         &.tweet {
             padding-left:0;
             padding-bottom:0;
+            border-bottom: $base-border;
 
-            p {
-                margin-top:$tiny-spacing;
+            &:last-child {
+               border:none;
             }
+
+            .tweet-username{
+                color:$color-dark-delta;
+                font-size: $base-font-size;
+            }
+
+            .listing-item-image { 
+                width: 48px;
+
+                + .listing-item-title {
+                    padding-left: 60px;
+
+                    + p {
+                        margin-top:$tiny-spacing;
+                        padding-left: 60px;
+                    }
+                }
+            }            
         }
-
-
     }
 
     .listing-item-secondary {
@@ -374,5 +391,5 @@
                 overflow-y: auto;
             }
         }
-    }   
+    }     
 }
