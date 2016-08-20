@@ -298,3 +298,15 @@
         }
     }
 }
+
+.postcard-list{
+
+    .postcard-field { 
+        border-bottom: $base-border;       
+        padding-bottom: $sm-spacing; 
+
+        &:last-child {
+            border:none;
+        }  
+    }
+}

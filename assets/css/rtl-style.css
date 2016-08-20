@@ -5540,6 +5540,14 @@ span[data-fieldgroup-target].init.active {
       margin-right: -24px;
       margin-left: -24px; } }
 
+/* line 304, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+.postcard-list .postcard-field {
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 16px; }
+  /* line 308, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  .postcard-list .postcard-field:last-child {
+    border: none; }
+
 /* line 1, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_listing.scss */
 .listing {
   position: relative;
