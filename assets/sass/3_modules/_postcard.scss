@@ -197,6 +197,10 @@
             h2 {
                 padding-bottom:3px;
                 padding-top: $sm-spacing;
+
+                &.form-label{
+                    border-top: none;
+                }
             }
        
             p {
