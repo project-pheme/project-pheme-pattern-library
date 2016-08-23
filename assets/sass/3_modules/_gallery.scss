@@ -1,0 +1,25 @@
+.gallery {
+
+    .gallery-thumb {
+       display:inline-block;
+       margin-right:8px;
+       margin-bottom:8px; 
+       position:relative;
+
+       figure{
+        max-width:130px;     
+
+           .image-count{
+               position: absolute;
+               top: 5px;
+               right:5px;
+               background: rgba(40,115,185,0.9);
+               color: $white;
+               font-size:11px;
+               padding:3px;        
+               text-align: center;
+               @include equal-radius;
+            }
+        }
+    }
+}

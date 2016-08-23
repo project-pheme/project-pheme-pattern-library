@@ -5085,6 +5085,27 @@ span[data-fieldgroup-target].init.active {
     .toolbox .tool fieldset {
       margin-top: 16px; }
 
+/* line 3, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_gallery.scss */
+.gallery .gallery-thumb {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  position: relative; }
+  /* line 9, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_gallery.scss */
+  .gallery .gallery-thumb figure {
+    max-width: 130px; }
+    /* line 12, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_gallery.scss */
+    .gallery .gallery-thumb figure .image-count {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: rgba(40, 115, 185, 0.9);
+      color: #FFFFFF;
+      font-size: 11px;
+      padding: 3px;
+      text-align: center;
+      border-radius: 2px; }
+
 /* line 1, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_form-sheet.scss */
 .form-sheet {
   position: relative;
