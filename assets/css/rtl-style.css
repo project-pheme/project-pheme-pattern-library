@@ -5480,25 +5480,55 @@ span[data-fieldgroup-target].init.active {
       max-width: 700px;
       height: 300px;
       border: 1px solid #D6D5D2; }
-    /* line 191, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
-    .postcard .postcard-field.listing-summary {
-      border-bottom: 1px solid #EEEEEE;
-      margin-top: 0;
-      margin-bottom: 0;
-      padding-bottom: 16px; }
-      /* line 197, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
-      .postcard .postcard-field.listing-summary h2 {
+  /* line 192, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  .postcard .listing-summary {
+    border-bottom: 1px solid #EEEEEE;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 16px; }
+    /* line 3, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/utils/mixins/_clearfix.scss */
+    .postcard .listing-summary:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+      font-size: 0; }
+    /* line 12, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/utils/mixins/_clearfix.scss */
+    .lt-ie8 .postcard .listing-summary {
+      zoom: 1; }
+    /* line 198, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    .postcard .listing-summary .listing-summary-block {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      /* line 89, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+      .postcard .listing-summary .listing-summary-block:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 48em) {
+        /* line 198, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+        .postcard .listing-summary .listing-summary-block {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 31.76157%; }
+          /* line 89, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+          .postcard .listing-summary .listing-summary-block:last-child {
+            margin-right: 0; } }
+      /* line 204, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      .postcard .listing-summary .listing-summary-block h2 {
         padding-bottom: 3px;
         padding-top: 16px; }
-        /* line 201, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
-        .postcard .postcard-field.listing-summary h2.form-label {
+        /* line 208, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+        .postcard .listing-summary .listing-summary-block h2.form-label {
           border-top: none; }
-      /* line 206, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
-      .postcard .postcard-field.listing-summary p {
+      /* line 213, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      .postcard .listing-summary .listing-summary-block p {
         margin-top: 5px;
         margin-bottom: 0;
         font-size: 12px; }
-  /* line 215, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 224, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard .postcard-actions {
     /*
         position: absolute;
@@ -5506,69 +5536,69 @@ span[data-fieldgroup-target].init.active {
         right: $tiny-spacing;
         z-index: $body;
         */ }
-    /* line 223, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 232, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard .postcard-actions .button-flat {
       box-shadow: none; }
-  /* line 228, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 237, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard .tabs-menu {
     clear: both;
     margin-right: -16px;
     margin-left: -16px; }
-  /* line 236, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 245, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .postcard-title {
     font-size: 20px;
     font-size: 1.428571429rem;
     margin-bottom: 16px; }
     @media screen and (min-width: 64em) {
-      /* line 236, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      /* line 245, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
       .postcard[role="article"] .postcard-title {
         font-size: 24px;
         font-size: 1.714285714rem;
         margin-top: 8px;
         margin-bottom: 24px; } }
   @media screen and (min-width: 64em) {
-    /* line 249, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 258, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard[role="article"] .listing-item-select {
       top: 24px; } }
-  /* line 255, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 264, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .listing-item-select .status-indicator {
     width: 18px;
     height: 18px; }
-    /* line 259, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 268, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard[role="article"] .listing-item-select .status-indicator svg.iconic {
       width: 12px;
       height: 12px; }
     @media screen and (min-width: 48em) {
-      /* line 255, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      /* line 264, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
       .postcard[role="article"] .listing-item-select .status-indicator {
         width: 20px;
         height: 20px;
         padding: 1.5px;
         margin-left: -2px; }
-        /* line 270, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+        /* line 279, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
         .postcard[role="article"] .listing-item-select .status-indicator svg.iconic {
           width: 14px;
           height: 14px; } }
-  /* line 280, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 289, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .postcard-field .form-label {
     border-top: 1px solid #EEEEEE; }
-  /* line 286, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 295, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .postcard-field:first-child .form-label {
     border-top: none; }
-  /* line 292, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 301, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .postcard-actions {
     margin-top: 0; }
   @media screen and (min-width: 64em) {
-    /* line 296, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 305, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard[role="article"] .tabs-menu {
       margin-right: -24px;
       margin-left: -24px; } }
 
-/* line 308, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+/* line 317, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
 .postcard-list .postcard-field {
   border-bottom: 1px solid #EEEEEE;
   padding-bottom: 16px; }
-  /* line 312, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 321, /Users/donden1/Documents/Projects/Ushahidi/project-pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard-list .postcard-field:last-child {
     border: none; }
 

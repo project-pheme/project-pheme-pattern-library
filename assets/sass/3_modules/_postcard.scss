@@ -187,12 +187,19 @@
             height: 300px;
             border: 1px solid $color-light-beta;
         }
+    }
 
-        &.listing-summary {
-            border-bottom: 1px solid $color-light-gamma;
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-bottom: $sm-spacing;   
+    .listing-summary {
+        border-bottom: 1px solid $color-light-gamma;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: $sm-spacing;
+         @include clearfix;
+        .listing-summary-block{
+            @include span-columns(12);
+            @include media($small){
+               @include span-columns(4);
+            }
 
             h2 {
                 padding-bottom:3px;
@@ -208,9 +215,11 @@
                 margin-bottom: 0;
                 font-size:12px;
             }
-
         }
+
     }
+
+
 
     .postcard-actions {
         /*
