@@ -8754,9 +8754,12 @@ span[data-fieldgroup-target].init.active {
       .leaflet-container .leaflet-control-container .leaflet-right .leaflet-control {
         float: left; } }
 
-/* line 3, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
-.topics .input-with-icon,
-.topics h2 {
-  margin-bottom: 20px; }
+/* line 1, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+.topics {
+  margin-top: 20px; }
+  /* line 4, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+  .topics .input-with-icon,
+  .topics h2 {
+    margin-bottom: 20px; }
 /* @generated */
 /*# sourceMappingURL=style.css.map */
