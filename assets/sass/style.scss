@@ -127,6 +127,8 @@ structure of the pattern library
 // MiniColors, color picker
 @import "utils/minicolors";
 
-
 // plugin specific overrides
 @import "assets/sass/utils/overrides/_leaflet-overrides.scss";
+
+// custom styles
+@import "custom";
