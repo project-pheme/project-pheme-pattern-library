@@ -1,5 +1,13 @@
 .topics {
-    margin-top: 20px;
+    padding-top: 85px;
+
+    @include media($small) {
+        padding-top: 65px;
+    }
+
+    @include media($medium) {
+        padding-top: 0;
+    }
 
     .input-with-icon,
     h2 {
