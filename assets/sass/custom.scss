@@ -1,4 +1,4 @@
-.topics {
+[role="main"].topics {
     padding-top: 85px;
 
     @include media($small) {
@@ -12,6 +12,15 @@
     .input-with-icon,
     h2 {
         margin-bottom: 20px;
+    }
+
+    .listing.toolbar-active {
+        margin-top: 0;
+
+        .listing-toolbar {
+            top: 0 !important;
+        }
+
     }
 
 }
