@@ -9,6 +9,10 @@
         padding-top: 0;
     }
 
+    #keyword-search {
+        margin-bottom: 40px;
+    }
+
     .input-with-icon,
     h2 {
         margin-bottom: 20px;
@@ -18,7 +22,12 @@
         margin-top: 0;
 
         .listing-toolbar {
-            top: 0 !important;
+            top: 55px !important;
+
+            @include media($medium) {
+                top: 0 !important;
+            }
+
         }
 
     }
