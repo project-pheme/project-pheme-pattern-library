@@ -32,4 +32,19 @@
 
     }
 
+    .listing {
+        @include span-columns(12);
+
+        .listing-item {
+            @include span-columns(12);
+
+            @include media($medium) {
+                @include span-columns(6);
+                margin-right: 0;
+            }
+
+        }
+
+    }
+
 }
