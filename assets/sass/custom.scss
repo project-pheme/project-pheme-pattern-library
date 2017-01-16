@@ -60,13 +60,14 @@
                 margin-bottom: 12px;
             }
 
-            .topic-description {
-                font-size: 1em;
-                margin-bottom: 10px;
-            }
-
             .listing-item-secondary {
                 margin: 0;
+
+                &.topic-description {
+                    font-size: 1em;
+                    margin-bottom: 10px;
+                }
+
             }
 
         }
