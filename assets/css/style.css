@@ -8792,24 +8792,47 @@ span[data-fieldgroup-target].init.active {
     [role="main"].topics .listing:last-child {
       margin-right: 0; }
     /* line 38, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
-    [role="main"].topics .listing .listing-item {
+    [role="main"].topics .listing.card, [role="main"].topics .listing.form-sheet, [role="main"].topics .listing.postcard, [role="main"].topics .tiers .listing.payment, .tiers [role="main"].topics .listing.payment {
+      box-shadow: none; }
+    /* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    [role="main"].topics .listing .listing-item-primary {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
       /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
-      [role="main"].topics .listing .listing-item:last-child {
+      [role="main"].topics .listing .listing-item-primary:last-child {
         margin-right: 0; }
       @media screen and (min-width: 64em) {
-        /* line 38, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
-        [role="main"].topics .listing .listing-item {
+        /* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+        [role="main"].topics .listing .listing-item-primary {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 48.82117%;
           margin-right: 0; }
           /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
-          [role="main"].topics .listing .listing-item:last-child {
+          [role="main"].topics .listing .listing-item-primary:last-child {
             margin-right: 0; } }
+  /* line 56, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+  [role="main"].topics .listing-item .listing-item-primary.tweet {
+    padding: 24px; }
+    /* line 59, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    [role="main"].topics .listing-item .listing-item-primary.tweet a {
+      color: #2274b4; }
+    /* line 63, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-image .avatar {
+      border-radius: 4px; }
+    /* line 67, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title {
+      margin-bottom: 10px; }
+      /* line 70, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+      [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title .tweet-name {
+        font-weight: bold; }
+      /* line 74, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+      [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title .tweet-date {
+        color: #888888;
+        font-size: 14px;
+        padding-left: 60px; }
 /* @generated */
 /*# sourceMappingURL=style.css.map */

@@ -35,12 +35,48 @@
     .listing {
         @include span-columns(12);
 
-        .listing-item {
+        &.card {
+            box-shadow: none;
+        }
+
+        .listing-item-primary {
             @include span-columns(12);
 
             @include media($medium) {
                 @include span-columns(6);
                 margin-right: 0;
+            }
+
+        }
+
+    }
+
+    .listing-item {
+
+        .listing-item-primary.tweet {
+            padding: $base-spacing;
+
+            a {
+                color: $blue;
+            }
+
+            .listing-item-image .avatar {
+                border-radius: 4px;
+            }
+
+            .listing-item-title {
+                margin-bottom: 10px;
+
+                .tweet-name {
+                    font-weight: bold;
+                }
+
+                .tweet-date {
+                    color:$color-dark-delta;
+                    font-size: $base-font-size;
+                    padding-left: 60px;
+                }
+
             }
 
         }
