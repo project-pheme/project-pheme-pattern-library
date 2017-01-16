@@ -15,13 +15,13 @@
 
     .input-with-icon,
     h2 {
-        margin-bottom: 20px;
+        margin-bottom: $base-spacing;
     }
 
     input[type="search"] {
         max-width: 650px;
     }
-    
+
     .listing.toolbar-active {
         margin-top: 0;
 
@@ -63,6 +63,10 @@
             @include span-columns(12);
             margin-right: 0;
             padding: $base-spacing;
+
+            &:last-child {
+                margin-bottom: $base-spacing;
+            }
 
             a {
                 color: $blue;
