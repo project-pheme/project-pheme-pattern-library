@@ -8848,8 +8848,8 @@ span[data-fieldgroup-target].init.active {
       font-size: 14px;
       margin-bottom: 0;
       padding-left: 60px; }
-    /* line 91, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
-    [role="main"].topics .listing-item .listing-item-primary.tweet .pagination ul {
-      margin-top: 20px; }
+  /* line 93, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+  [role="main"].topics .listing-item .pagination ul {
+    margin-top: 13px; }
 /* @generated */
 /*# sourceMappingURL=style.css.map */
