@@ -8817,20 +8817,28 @@ span[data-fieldgroup-target].init.active {
             margin-right: 0; } }
   /* line 56, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
   [role="main"].topics .listing-item .listing-item-primary.tweet {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-right: 0;
     padding: 24px; }
-    /* line 59, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+    [role="main"].topics .listing-item .listing-item-primary.tweet:last-child {
+      margin-right: 0; }
+    /* line 61, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet a {
       color: #2274b4; }
-    /* line 63, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    /* line 65, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-image .avatar {
       border-radius: 4px; }
-    /* line 67, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    /* line 69, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title {
       margin-bottom: 10px; }
-      /* line 70, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+      /* line 72, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
       [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title .tweet-name {
         font-weight: bold; }
-    /* line 76, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    /* line 78, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet .tweet-date {
       color: #888888;
       font-size: 14px;

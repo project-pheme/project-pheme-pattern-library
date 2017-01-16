@@ -54,6 +54,8 @@
     .listing-item {
 
         .listing-item-primary.tweet {
+            @include span-columns(12);
+            margin-right: 0;
             padding: $base-spacing;
 
             a {
