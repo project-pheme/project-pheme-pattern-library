@@ -8803,26 +8803,30 @@ span[data-fieldgroup-target].init.active {
     [role="main"].topics .listing.card, [role="main"].topics .listing.form-sheet, [role="main"].topics .listing.postcard, [role="main"].topics .tiers .listing.payment, .tiers [role="main"].topics .listing.payment {
       box-shadow: none; }
     /* line 52, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
-    [role="main"].topics .listing .listing-item-primary {
+    [role="main"].topics .listing .listing-item {
       float: left;
       display: block;
       margin-right: 2.35765%;
       width: 100%; }
       /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
-      [role="main"].topics .listing .listing-item-primary:last-child {
+      [role="main"].topics .listing .listing-item:last-child {
         margin-right: 0; }
       @media screen and (min-width: 64em) {
         /* line 52, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
-        [role="main"].topics .listing .listing-item-primary {
+        [role="main"].topics .listing .listing-item {
           float: left;
           display: block;
           margin-right: 2.35765%;
           width: 48.82117%;
           margin-right: 0; }
           /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
-          [role="main"].topics .listing .listing-item-primary:last-child {
+          [role="main"].topics .listing .listing-item:last-child {
             margin-right: 0; } }
   /* line 66, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+  [role="main"].topics .listing-item .listing-item-primary {
+    font-weight: bold;
+    margin-bottom: 12px; }
+  /* line 71, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
   [role="main"].topics .listing-item .listing-item-primary.tweet {
     float: left;
     display: block;
@@ -8833,25 +8837,25 @@ span[data-fieldgroup-target].init.active {
     /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet:last-child {
       margin-right: 0; }
-    /* line 71, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    /* line 76, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet a {
       color: #2274b4; }
-    /* line 75, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    /* line 80, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-image .avatar {
       border-radius: 4px; }
-    /* line 79, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    /* line 84, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title {
       margin-bottom: 10px; }
-      /* line 82, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+      /* line 87, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
       [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title .tweet-name {
         font-weight: bold; }
-    /* line 88, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    /* line 93, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
     [role="main"].topics .listing-item .listing-item-primary.tweet .tweet-date {
       color: #888888;
       font-size: 14px;
       margin-bottom: 0;
       padding-left: 60px; }
-  /* line 97, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+  /* line 102, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
   [role="main"].topics .listing-item .pagination ul {
     margin-top: 13px; }
 /* @generated */
