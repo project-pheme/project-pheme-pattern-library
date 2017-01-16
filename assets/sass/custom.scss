@@ -18,6 +18,10 @@
         margin-bottom: 20px;
     }
 
+    input[type="search"] {
+        max-width: 650px;
+    }
+    
     .listing.toolbar-active {
         margin-top: 0;
 
@@ -35,6 +39,7 @@
     .listing {
         @include span-columns(12);
         float: none;
+        max-width: 650px;
 
         &.card {
             box-shadow: none;
