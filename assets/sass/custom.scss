@@ -34,6 +34,7 @@
 
     .listing {
         @include span-columns(12);
+        float: none;
 
         &.card {
             box-shadow: none;
@@ -78,6 +79,7 @@
             .tweet-date {
                 color:$color-dark-delta;
                 font-size: $base-font-size;
+                margin-bottom: 0;
                 padding-left: 60px;
             }
 
