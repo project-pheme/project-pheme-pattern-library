@@ -8829,10 +8829,10 @@ span[data-fieldgroup-target].init.active {
       /* line 70, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
       [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title .tweet-name {
         font-weight: bold; }
-      /* line 74, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
-      [role="main"].topics .listing-item .listing-item-primary.tweet .listing-item-title .tweet-date {
-        color: #888888;
-        font-size: 14px;
-        padding-left: 60px; }
+    /* line 76, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+    [role="main"].topics .listing-item .listing-item-primary.tweet .tweet-date {
+      color: #888888;
+      font-size: 14px;
+      padding-left: 60px; }
 /* @generated */
 /*# sourceMappingURL=style.css.map */
