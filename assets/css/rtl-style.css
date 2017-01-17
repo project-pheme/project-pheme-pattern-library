@@ -8846,5 +8846,9 @@ span[data-fieldgroup-target].init.active {
   /* line 106, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
   [role="main"].topics .listing-item .pagination ul {
     margin-top: 13px; }
+
+/* line 116, /Users/M8M/Sites/pheme-pattern-library/assets/sass/custom.scss */
+[role="main"] .main-col .phemes .alert {
+  margin: 10px 0 15px 0; }
 /* @generated */
 /*# sourceMappingURL=rtl-style.css.map */
