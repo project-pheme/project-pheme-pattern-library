@@ -114,6 +114,33 @@
 [role="main"] .main-col.phemes {
 
     .alert {
-        margin: 10px 0 15px 0;
+        margin: 30px 16px;
+        display: block;
+
+        @include media($medium) {
+            margin: 10px 0 15px 0;
+            display: inline-block;
+        }
+
     }
+
+    .toolbox {
+
+        @include media($medium) {
+            margin-top: 80px;
+        }
+
+        .form-field {
+            float: left;
+            margin: 16px 8px 16px 0;
+            margin-bottom: 0;
+
+            .custom-select select {
+                padding: 12px 26px 12px 8px
+            }
+
+        }
+
+    }
+
 }
