@@ -117,6 +117,10 @@
         margin: 30px 16px;
         display: block;
 
+        @include media($small) {
+            margin-top: 10px;
+        }
+
         @include media($medium) {
             margin: 10px 0 15px 0;
             display: inline-block;
@@ -126,19 +130,22 @@
 
     .toolbox {
 
-        @include media($medium) {
-            margin-top: 80px;
+        @include media($small) {
+            margin-top: 75px;
         }
 
         .form-field {
             float: left;
-            margin: 16px 8px 16px 0;
-            margin-bottom: 0;
+            margin: 16px 8px 0 0;
 
             .custom-select select {
                 padding: 12px 26px 12px 8px
             }
 
+        }
+
+        .buttons-updown {
+            margin-top: 16px;
         }
 
     }
