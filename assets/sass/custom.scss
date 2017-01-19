@@ -51,6 +51,11 @@
 
     }
 
+}
+
+// Tweets
+.listing.tweet {
+
     .listing-item {
 
         .listing-item-primary {
@@ -113,6 +118,10 @@
 
 [role="main"] .main-col.phemes {
 
+    @include media($small) {
+        padding-left: 0;
+    }
+
     .alert {
         margin: 30px 16px;
         display: block;
@@ -146,6 +155,28 @@
 
         .buttons-updown {
             margin-top: 16px;
+        }
+
+    }
+
+    .listing {
+        margin-bottom: 0;
+
+        &.timeline {
+
+            @include media($medium) {
+                padding-left: 24px;
+            }
+
+        }
+        
+        .listing-item {
+
+            .listing-item-primary.tweet {
+                padding-left: 0;
+                border-bottom: none;
+            }
+
         }
 
     }
