@@ -190,6 +190,15 @@
         }
     }
 
+    .listing-summary-wrapper {
+        @include span-columns(12);
+
+        @include media($large){
+           @include span-columns(6);
+        }
+
+    }
+
     .listing-summary {
         border-bottom: 1px solid $color-light-gamma;
         margin-top: 0;
@@ -199,12 +208,8 @@
         .listing-summary-block{
             @include span-columns(6);
 
-            &:nth-child(even) {
-                margin-right: 0;
-            }
-
             @include media($large){
-               @include span-columns(3);
+               @include span-columns(6);
             }
 
             h2 {

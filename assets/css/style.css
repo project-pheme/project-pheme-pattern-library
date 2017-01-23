@@ -5481,6 +5481,25 @@ span[data-fieldgroup-target].init.active {
       height: 300px;
       border: 1px solid #D6D5D2; }
   /* line 193, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  .postcard .listing-summary-wrapper {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+    .postcard .listing-summary-wrapper:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 80em) {
+      /* line 193, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      .postcard .listing-summary-wrapper {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+        .postcard .listing-summary-wrapper:last-child {
+          margin-right: 0; } }
+  /* line 202, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard .listing-summary {
     border-bottom: 1px solid #EEEEEE;
     margin-top: 0;
@@ -5497,7 +5516,7 @@ span[data-fieldgroup-target].init.active {
     /* line 12, /Users/M8M/Sites/pheme-pattern-library/assets/sass/utils/mixins/_clearfix.scss */
     .lt-ie8 .postcard .listing-summary {
       zoom: 1; }
-    /* line 199, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 208, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard .listing-summary .listing-summary-block {
       float: left;
       display: block;
@@ -5506,32 +5525,29 @@ span[data-fieldgroup-target].init.active {
       /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
       .postcard .listing-summary .listing-summary-block:last-child {
         margin-right: 0; }
-      /* line 202, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
-      .postcard .listing-summary .listing-summary-block:nth-child(even) {
-        margin-right: 0; }
       @media screen and (min-width: 80em) {
-        /* line 199, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+        /* line 208, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
         .postcard .listing-summary .listing-summary-block {
           float: left;
           display: block;
           margin-right: 2.35765%;
-          width: 23.23176%; }
+          width: 48.82117%; }
           /* line 89, /Users/M8M/Sites/pheme-pattern-library/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
           .postcard .listing-summary .listing-summary-block:last-child {
             margin-right: 0; } }
-      /* line 210, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      /* line 215, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
       .postcard .listing-summary .listing-summary-block h2 {
         padding-bottom: 3px;
         padding-top: 16px; }
-        /* line 214, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+        /* line 219, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
         .postcard .listing-summary .listing-summary-block h2.form-label {
           border-top: none; }
-      /* line 219, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      /* line 224, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
       .postcard .listing-summary .listing-summary-block p {
         margin-top: 5px;
         margin-bottom: 0;
         font-size: 12px; }
-  /* line 230, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 235, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard .postcard-actions {
     /*
         position: absolute;
@@ -5539,69 +5555,69 @@ span[data-fieldgroup-target].init.active {
         right: $tiny-spacing;
         z-index: $body;
         */ }
-    /* line 238, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 243, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard .postcard-actions .button-flat {
       box-shadow: none; }
-  /* line 243, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 248, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard .tabs-menu {
     clear: both;
     margin-right: -16px;
     margin-left: -16px; }
-  /* line 251, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 256, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .postcard-title {
     font-size: 20px;
     font-size: 1.428571429rem;
     margin-bottom: 16px; }
     @media screen and (min-width: 64em) {
-      /* line 251, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      /* line 256, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
       .postcard[role="article"] .postcard-title {
         font-size: 24px;
         font-size: 1.714285714rem;
         margin-top: 8px;
         margin-bottom: 24px; } }
   @media screen and (min-width: 64em) {
-    /* line 264, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 269, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard[role="article"] .listing-item-select {
       top: 24px; } }
-  /* line 270, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 275, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .listing-item-select .status-indicator {
     width: 18px;
     height: 18px; }
-    /* line 274, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 279, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard[role="article"] .listing-item-select .status-indicator svg.iconic {
       width: 12px;
       height: 12px; }
     @media screen and (min-width: 48em) {
-      /* line 270, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+      /* line 275, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
       .postcard[role="article"] .listing-item-select .status-indicator {
         width: 20px;
         height: 20px;
         padding: 1.5px;
         margin-left: -2px; }
-        /* line 285, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+        /* line 290, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
         .postcard[role="article"] .listing-item-select .status-indicator svg.iconic {
           width: 14px;
           height: 14px; } }
-  /* line 295, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 300, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .postcard-field .form-label {
     border-top: 1px solid #EEEEEE; }
-  /* line 301, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 306, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .postcard-field:first-child .form-label {
     border-top: none; }
-  /* line 307, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 312, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard[role="article"] .postcard-actions {
     margin-top: 0; }
   @media screen and (min-width: 64em) {
-    /* line 311, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+    /* line 316, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
     .postcard[role="article"] .tabs-menu {
       margin-right: -24px;
       margin-left: -24px; } }
 
-/* line 323, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+/* line 328, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
 .postcard-list .postcard-field {
   border-bottom: 1px solid #EEEEEE;
   padding-bottom: 16px; }
-  /* line 327, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
+  /* line 332, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_postcard.scss */
   .postcard-list .postcard-field:last-child {
     border: none; }
 
