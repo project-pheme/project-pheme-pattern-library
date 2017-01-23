@@ -3,7 +3,7 @@
     color: $white;
     @extend .menu;
     @include equal-radius(0);
-    background-color: $color-primary-alpha;
+    background-color: darken( saturate( adjust-hue( $pheme-color-primary, 3deg ), 5 ), 11 );
     @include transition(all .25s);
 
     .breadcrumbs {
@@ -98,8 +98,8 @@
         position: absolute;
         top: 0;
         right: 0;
-        background-color: $color-primary-alpha;
-        @include box-shadow($top: 0, $left: -1px, $blur: 4px, $spread: 0, $color: rgba(30,35,42,1), $inset: false);
+        background-color: $pheme-color-primary-alpha;
+        // @include box-shadow($top: 0, $left: -1px, $blur: 4px, $spread: 0, $color: rgba(30,35,42,1), $inset: false);
         padding: $sm-spacing+4 $sm-spacing;
 
         svg.iconic {

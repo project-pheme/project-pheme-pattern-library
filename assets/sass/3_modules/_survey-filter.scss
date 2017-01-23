@@ -8,7 +8,7 @@
 .survey-filter-checkbox {
     position: relative;
     @include clearfix;
-    background-color: #292E34;
+    background-color: $pheme-color-primary-alpha;
     @include transition(0.3s);
 
     .post-band {
@@ -37,7 +37,7 @@
 
     label {
         display: block;
-        color: $color-primary-epsilon;
+        color: $white;
         @include typeGamma;
         text-transform: none;
         letter-spacing: normal;
@@ -47,7 +47,7 @@
         position: absolute;
         top: 50%;
         right: 0;
-        box-shadow: 0 0 $tiny-spacing 2px #292E34;
+        box-shadow: 0 0 $tiny-spacing 2px $pheme-color-primary-alpha;;
         margin-top: -10px;
         margin-right: $sm-spacing;
 /*
@@ -160,11 +160,11 @@
 
 .survey-filter-total {
     display: inline-block;
-    color: $color-primary-epsilon;
+    color: $white;
     @include equal-radius(20px);
     font-size: 12px;
     text-shadow: 0 1px 1px rgba(0,0,0,1);
-    background-color: $color-primary;
+    background-color: $pheme-color-primary;
     padding: 4px $tiny-spacing;
     @include transition(0.3s);
 
@@ -173,7 +173,7 @@
         &:hover {
             cursor: pointer;
             color: $white;
-            background-color: $color-primary-delta;
+            background-color: lighten( desaturate( adjust-hue( $pheme-color-primary, 6deg ), 7 ), 15 );
             box-shadow: 0 0 4px rgba(0,0,0,0.12),
                 0 4px 4px rgba(0,0,0,0.24);
         }

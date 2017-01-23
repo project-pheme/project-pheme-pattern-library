@@ -4,7 +4,7 @@
     z-index: $modebar;
     max-width: $lg-spacing*2;
     @include equal-radius(0);
-    background-color: $color-primary;
+    background-color: $pheme-color-primary;
 
     @include media($medium-down) {
         display: block;
@@ -272,7 +272,7 @@
                 color: $color-light-alpha;
 
                 @include media($medium) {
-                    display: block;                    
+                    display: block;
                 }
             }
         }

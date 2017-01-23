@@ -61,6 +61,12 @@ body.rtl {
 /*------------------------------------*\
     $COLORS
 \*------------------------------------*/
+// Pheme custom colors
+$pheme-color-primary: #0F75BC;
+$pheme-color-primary-alpha: lighten( desaturate( adjust-hue( $pheme-color-primary, -2deg ), 5 ), 4 );
+$pheme-color-primary-beta: darken( saturate( $pheme-color-primary, 3 ), 5 );
+$pheme-color-primary-gamma: lighten( desaturate( adjust-hue( $pheme-color-primary, 4deg ), 5 ), 2 );
+$pheme-color-primary-delta: lighten( desaturate( adjust-hue( $pheme-color-primary, 6deg ), 7 ), 15 );
 
 // color scheme foundation
 $color-primary: #373E46; // faded blue

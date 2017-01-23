@@ -4,7 +4,7 @@
     @extend .bar;
     // min-height: 52px;
     @include equal-radius(0px);
-    background-color: $color-primary;
+    background-color: $pheme-color-primary;
     padding: 0 $sm-spacing;
     margin: auto;
 
@@ -44,7 +44,7 @@
                 input[type="search"] {
                     color: $white;
                     border-color: transparent;
-                    background-color: $color-primary-delta;
+                    background-color: $pheme-color-primary-delta;
 
                     &::placeholder {
                        color: $white;
@@ -52,7 +52,7 @@
 
                     &:focus {
                         color: $black;
-                        outline-color: $color-primary-beta;
+                        outline-color: $pheme-color-primary-beta;
                         border-color: $base-border-dark;
                         background-color: $white;
                     }

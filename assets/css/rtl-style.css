@@ -1769,7 +1769,7 @@ input[type="button"] {
   border-top-right-radius: 2px;
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
-  background-color: #40444A;
+  background-color: #156fc0;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
   padding: 8px 16px;
   -webkit-transition: 0.3s;
@@ -1780,14 +1780,14 @@ input[type="button"] {
   input[type="button"]:hover {
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #2B323A;
+    background-color: #0a67a7;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24); }
   /* line 38, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_buttons.scss */
   button:active,
   .button:active,
   input[type="button"]:active {
     color: #FFFFFF;
-    background-color: #1E232A;
+    background-color: #1686c9;
     -webkit-transition: none;
     transition: none;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24); }
@@ -2395,7 +2395,7 @@ img {
   font-size: 1rem;
   text-align: center;
   border-radius: 25px;
-  background: #373E46;
+  background: #0F75BC;
   padding: 8px 16px; }
   /* line 11, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_bug.scss */
   .bug .subtext {
@@ -5773,7 +5773,7 @@ span[data-fieldgroup-target].init.active {
 /* line 8, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_survey-filter.scss */
 .survey-filter-checkbox {
   position: relative;
-  background-color: #292E34;
+  background-color: #1686c9;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
   /* line 3, /Users/M8M/Sites/pheme-pattern-library/assets/sass/utils/mixins/_clearfix.scss */
@@ -5810,7 +5810,7 @@ span[data-fieldgroup-target].init.active {
   /* line 38, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_survey-filter.scss */
   .survey-filter-checkbox label {
     display: block;
-    color: #8E9297;
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
     font-size: 1.142857143rem;
@@ -5821,7 +5821,7 @@ span[data-fieldgroup-target].init.active {
     position: absolute;
     top: 50%;
     right: 0;
-    box-shadow: 0 0 8px 2px #292E34;
+    box-shadow: 0 0 8px 2px #1686c9;
     margin-top: -10px;
     margin-right: 16px;
     /*
@@ -5917,11 +5917,11 @@ span[data-fieldgroup-target].init.active {
 /* line 161, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_survey-filter.scss */
 .survey-filter-total {
   display: inline-block;
-  color: #8E9297;
+  color: #FFFFFF;
   border-radius: 20px;
   font-size: 12px;
   text-shadow: 0 1px 1px black;
-  background-color: #373E46;
+  background-color: #0F75BC;
   padding: 4px 8px;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
@@ -5929,7 +5929,7 @@ span[data-fieldgroup-target].init.active {
   .survey-filter-total.init:hover {
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #60646B;
+    background-color: #328ae6;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.24); }
 
 /* line 1, /Users/M8M/Sites/pheme-pattern-library/assets/sass/3_modules/_searchbar.scss */
@@ -6504,7 +6504,7 @@ span[data-fieldgroup-target].init.active {
   z-index: 4000;
   max-width: 64.0px;
   border-radius: 0;
-  background-color: #373E46; }
+  background-color: #0F75BC; }
   /* line 3, /Users/M8M/Sites/pheme-pattern-library/assets/sass/utils/mixins/_clearfix.scss */
   .mode-bar:after {
     content: ".";
@@ -6783,7 +6783,7 @@ span[data-fieldgroup-target].init.active {
   position: relative;
   color: #FFFFFF;
   border-radius: 0;
-  background-color: #1E232A;
+  background-color: #074f8c;
   -webkit-transition: all 0.25s;
   transition: all 0.25s; }
   /* line 13, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_mode-context.scss */
@@ -6860,8 +6860,7 @@ span[data-fieldgroup-target].init.active {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #1E232A;
-    box-shadow: -1px 0 4px 0 #1e232a;
+    background-color: #1686c9;
     padding: 20px 16px; }
     /* line 105, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_mode-context.scss */
     .mode-context .mode-context-trigger svg.iconic {
@@ -7041,7 +7040,7 @@ span[data-fieldgroup-target].init.active {
 .toolbar {
   position: relative;
   border-radius: 0px;
-  background-color: #373E46;
+  background-color: #0F75BC;
   padding: 0 16px;
   margin: auto; }
   /* line 3, /Users/M8M/Sites/pheme-pattern-library/assets/sass/utils/mixins/_clearfix.scss */
@@ -7083,7 +7082,7 @@ span[data-fieldgroup-target].init.active {
     .toolbar .searchbar .searchbar-input .form-field input[type="search"] {
       color: #FFFFFF;
       border-color: transparent;
-      background-color: #60646B; }
+      background-color: #328ae6; }
       /* line 49, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_toolbar.scss */
       .toolbar .searchbar .searchbar-input .form-field input[type="search"]::-webkit-input-placeholder {
         color: #FFFFFF; }
@@ -7096,7 +7095,7 @@ span[data-fieldgroup-target].init.active {
       /* line 53, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_toolbar.scss */
       .toolbar .searchbar .searchbar-input .form-field input[type="search"]:focus {
         color: #222222;
-        outline-color: #2B323A;
+        outline-color: #0a67a7;
         border-color: 1px solid #c8c8c8;
         background-color: #FFFFFF; }
     /* line 67, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_toolbar.scss */
