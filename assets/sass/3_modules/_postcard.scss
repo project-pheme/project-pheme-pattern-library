@@ -46,7 +46,8 @@
     }
 
     .postcard-body {
-        padding: $sm-spacing;
+        padding: $base-spacing;
+        position: relative;
 
         .postcard-header {
             float: left;
@@ -196,9 +197,14 @@
         padding-bottom: $sm-spacing;
          @include clearfix;
         .listing-summary-block{
-            @include span-columns(12);
-            @include media($small){
-               @include span-columns(4);
+            @include span-columns(6);
+
+            &:nth-child(even) {
+                margin-right: 0;
+            }
+
+            @include media($large){
+               @include span-columns(3);
             }
 
             h2 {
@@ -209,7 +215,7 @@
                     border-top: none;
                 }
             }
-       
+
             p {
                 margin-top:5px;
                 margin-bottom: 0;
@@ -314,12 +320,12 @@
 
 .postcard-list{
 
-    .postcard-field { 
-        border-bottom: $base-border;       
-        padding-bottom: $sm-spacing; 
+    .postcard-field {
+        border-bottom: $base-border;
+        padding-bottom: $sm-spacing;
 
         &:last-child {
             border:none;
-        }  
+        }
     }
 }

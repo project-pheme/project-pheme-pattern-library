@@ -169,12 +169,30 @@
             }
 
         }
-        
+
+        .postcard .listing-summary {
+            margin-bottom: 16px;
+
+            .most-shared-image {
+                margin-top: 16px;
+            }
+
+        }
+
         .listing-item {
 
+            .form-label {
+                padding-top: 0;
+            }
+
             .listing-item-primary.tweet {
-                padding-left: 0;
+                padding: 16px 16px 16px 0;
                 border-bottom: none;
+
+                .listing-item-image {
+                    top: 16px;
+                }
+
             }
 
         }
