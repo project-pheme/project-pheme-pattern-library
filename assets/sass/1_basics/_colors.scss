@@ -1,3 +1,32 @@
 /*------------------------------------*\
     $COLORS
 \*------------------------------------*/
+
+@function set-topic-label-color($color) {
+    @if (lightness($color) > 50) {
+        @return #000000; // Lighter backgorund, return dark color
+    } @else {
+        @return #ffffff; // Darker background, return light color
+    }
+}
+
+.topic-label {
+    padding: 3px;
+    font-weight: bold;
+}
+
+$phemeTopicColors: #0fbc70, #e63b12, #e6d012, #e6a612, #550fbc, #53c710, #d11134, #c9dc12, #e67c12, #bc0fb0;
+@for $i from 1 through length($phemeTopicColors) {
+  $phemeTopicColors: append($phemeTopicColors, darken(nth($phemeTopicColors, $i), 25));
+}
+
+$phemeTopicColorsLength: length($phemeTopicColors);
+
+@for $i from 1 through $phemeTopicColorsLength {
+
+    .topic-color-#{$i} {
+        background-color: nth($phemeTopicColors, $i);
+        color: set-topic-label-color(nth($phemeTopicColors, $i));
+    }
+
+}

@@ -2458,6 +2458,113 @@ img {
   background-color: #FFFFFF;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24); }
 
+/*------------------------------------*    $COLORS
+\*------------------------------------*/
+/* line 13, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-label {
+  padding: 3px;
+  font-weight: bold; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-1 {
+  background-color: #0fbc70;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-2 {
+  background-color: #e63b12;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-3 {
+  background-color: #e6d012;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-4 {
+  background-color: #e6a612;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-5 {
+  background-color: #550fbc;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-6 {
+  background-color: #53c710;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-7 {
+  background-color: #d11134;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-8 {
+  background-color: #c9dc12;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-9 {
+  background-color: #e67c12;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-10 {
+  background-color: #bc0fb0;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-11 {
+  background-color: #06462a;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-12 {
+  background-color: #701d09;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-13 {
+  background-color: #706509;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-14 {
+  background-color: #705109;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-15 {
+  background-color: #200646;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-16 {
+  background-color: #225107;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-17 {
+  background-color: #5b0717;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-18 {
+  background-color: #5d6608;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-19 {
+  background-color: #703c09;
+  color: #ffffff; }
+
+/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-20 {
+  background-color: #460641;
+  color: #ffffff; }
+
 /*------------------------------------*    $FRAGMENTS
 \*------------------------------------*/
 /* line 5, /Users/M8M/Sites/pheme-pattern-library/assets/sass/2_fragments/_buttons.scss */
