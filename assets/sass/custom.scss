@@ -14,7 +14,11 @@
     }
 
     #keyword-search {
-        margin-bottom: 40px;
+        margin-bottom: $base-spacing;
+    }
+
+    button.button-alpha {
+        margin-bottom: $base-spacing;
     }
 
     .input-with-icon,
