@@ -83,7 +83,7 @@
             border-bottom: $base-border;
 
             &:last-child {
-               border:none;
+               border-bottom:none;
             }
 
             .tweet-username{
@@ -91,18 +91,18 @@
                 font-size: $base-font-size;
             }
 
-            .listing-item-image { 
+            .listing-item-image {
                 width: 48px;
 
                 + .listing-item-title {
                     padding-left: 60px;
 
-                    + p {
+                    ~ p {
                         margin-top:$tiny-spacing;
                         padding-left: 60px;
                     }
                 }
-            }            
+            }
         }
     }
 
@@ -124,12 +124,6 @@
             line-height: normal;
             margin-top: -$tiny-spacing;
 
-/*
-            svg.iconic {
-                width: 1.142857143em;
-                height: 1.142857143em;
-            }
-*/
             .button-label {
                 display: none;
             }
@@ -391,5 +385,5 @@
                 overflow-y: auto;
             }
         }
-    }     
+    }
 }

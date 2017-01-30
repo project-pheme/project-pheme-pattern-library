@@ -1,3 +1,4 @@
+// Topics
 [role="main"].topics {
     padding-top: 85px;
 
@@ -57,69 +58,7 @@
 
 }
 
-// Tweets
-.listing.tweet {
-
-    .listing-item {
-
-        .listing-item-primary {
-
-            h2 {
-                font-weight: bold;
-                margin-bottom: 12px;
-            }
-
-            .listing-item-secondary {
-                margin: 0;
-
-                &.topic-description {
-                    font-size: 1em;
-                    margin-bottom: 10px;
-                }
-
-            }
-
-        }
-
-        .listing-item-primary.tweet {
-            @include span-columns(12);
-            margin-right: 0;
-            padding: $base-spacing;
-
-            a {
-                color: $blue;
-            }
-
-            .listing-item-image .avatar {
-                border-radius: 4px;
-            }
-
-            .listing-item-title {
-                margin-bottom: 10px;
-
-                .tweet-name {
-                    font-weight: bold;
-                }
-
-            }
-
-            .tweet-date {
-                color:$color-dark-delta;
-                font-size: $base-font-size;
-                margin-bottom: 0;
-                padding-left: 60px;
-            }
-
-        }
-
-        .pagination ul {
-            margin-top: 13px;
-        }
-
-    }
-
-}
-
+// Phemes
 [role="main"] .main-col.phemes {
 
     @include media($small) {
@@ -199,6 +138,101 @@
 
             }
 
+        }
+
+    }
+
+}
+
+// Tweets
+.listing.tweet {
+
+    .listing-item {
+
+        .listing-item-primary {
+
+            h2 {
+                font-weight: bold;
+                margin-bottom: 12px;
+            }
+
+            .listing-item-secondary {
+                margin: 0;
+
+                &.topic-description {
+                    font-size: 1em;
+                    margin-bottom: 10px;
+                }
+
+            }
+
+        }
+
+        .listing-item-primary.tweet {
+            @include span-columns(12);
+            margin-right: 0;
+            padding: $base-spacing;
+
+            &.card {
+                margin-bottom: $base-spacing;
+            }
+
+            a {
+                color: $blue;
+            }
+
+            .listing-item-image .avatar {
+                border-radius: 4px;
+            }
+
+            .listing-item-title {
+                margin-bottom: 10px;
+
+                .tweet-name {
+                    font-weight: bold;
+                }
+
+                .tweet-verified {
+
+                    img {
+                        display: inline-block;
+                        position: relative;
+                        top: 6px;
+                    }
+
+                }
+
+            }
+
+            .tweet-veracity {
+
+                svg {
+                    position: relative;
+                    top: 1px;
+
+                    &.confidence {
+                        fill: $green;
+                    }
+
+                    &.uncertain {
+                        fill: $red;
+                    }
+                    
+                }
+
+            }
+
+            .tweet-date {
+                color:$color-dark-delta;
+                font-size: $base-font-size;
+                margin-bottom: 0;
+                padding-left: 60px;
+            }
+
+        }
+
+        .pagination ul {
+            margin-top: 13px;
         }
 
     }

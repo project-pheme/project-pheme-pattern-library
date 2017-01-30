@@ -156,14 +156,14 @@
 
     .postcard-field {
         clear: both;
-        margin: $sm-spacing 0;
+        margin: 0 0 $sm-spacing 0;
 
         &:last-child {
             margin-bottom: 0;
         }
 
         .form-label {
-            padding-top: $base-spacing;
+            padding-top: $sm-spacing;
         }
 
         p {
