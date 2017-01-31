@@ -205,6 +205,7 @@
         margin-bottom: 0;
         padding-bottom: $sm-spacing;
          @include clearfix;
+         
         .listing-summary-block{
             @include span-columns(6);
 
