@@ -15,7 +15,22 @@
     font-weight: bold;
 }
 
-$phemeTopicColors: #0fbc70, #e63b12, #e6d012, #e6a612, #550fbc, #53c710, #d11134, #c9dc12, #e67c12, #bc0fb0;
+$phemeTopicColors:
+
+#8899AA,
+#557777,
+#118888,
+#884411,
+#7F3F42,
+#005BA8,
+#115588,
+#3D454C,
+#074F8C,
+#003366,
+#550fbc,
+#e67c12,
+#bc0fb0;
+
 @for $i from 1 through length($phemeTopicColors) {
   $phemeTopicColors: append($phemeTopicColors, darken(nth($phemeTopicColors, $i), 25));
 }
@@ -26,7 +41,8 @@ $phemeTopicColorsLength: length($phemeTopicColors);
 
     .topic-color-#{$i} {
         background-color: nth($phemeTopicColors, $i);
-        color: set-topic-label-color(nth($phemeTopicColors, $i));
+        // color: set-topic-label-color(nth($phemeTopicColors, $i));
+        color: $white;
     }
 
 }

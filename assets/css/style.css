@@ -2476,105 +2476,135 @@ img {
   padding: 3px;
   font-weight: bold; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-1 {
-  background-color: #0fbc70;
-  color: #ffffff; }
+  background-color: #8899AA;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-2 {
-  background-color: #e63b12;
-  color: #ffffff; }
+  background-color: #557777;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-3 {
-  background-color: #e6d012;
-  color: #ffffff; }
+  background-color: #118888;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-4 {
-  background-color: #e6a612;
-  color: #ffffff; }
+  background-color: #884411;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-5 {
-  background-color: #550fbc;
-  color: #ffffff; }
+  background-color: #7F3F42;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-6 {
-  background-color: #53c710;
-  color: #ffffff; }
+  background-color: #005BA8;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-7 {
-  background-color: #d11134;
-  color: #ffffff; }
+  background-color: #115588;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-8 {
-  background-color: #c9dc12;
-  color: #ffffff; }
+  background-color: #3D454C;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-9 {
-  background-color: #e67c12;
-  color: #ffffff; }
+  background-color: #074F8C;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-10 {
-  background-color: #bc0fb0;
-  color: #ffffff; }
+  background-color: #003366;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-11 {
-  background-color: #06462a;
-  color: #ffffff; }
+  background-color: #550fbc;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-12 {
-  background-color: #701d09;
-  color: #ffffff; }
+  background-color: #e67c12;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-13 {
-  background-color: #706509;
-  color: #ffffff; }
+  background-color: #bc0fb0;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-14 {
-  background-color: #705109;
-  color: #ffffff; }
+  background-color: #4a5968;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-15 {
-  background-color: #200646;
-  color: #ffffff; }
+  background-color: #202d2d;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-16 {
-  background-color: #225107;
-  color: #ffffff; }
+  background-color: #031717;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-17 {
-  background-color: #5b0717;
-  color: #ffffff; }
+  background-color: #170b03;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-18 {
-  background-color: #5d6608;
-  color: #ffffff; }
+  background-color: #2a1516;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-19 {
-  background-color: #703c09;
-  color: #ffffff; }
+  background-color: #001629;
+  color: #FFFFFF; }
 
-/* line 27, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
 .topic-color-20 {
+  background-color: #030e17;
+  color: #FFFFFF; }
+
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-21 {
+  background-color: #040505;
+  color: #FFFFFF; }
+
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-22 {
+  background-color: #010a13;
+  color: #FFFFFF; }
+
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-23 {
+  background-color: black;
+  color: #FFFFFF; }
+
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-24 {
+  background-color: #200646;
+  color: #FFFFFF; }
+
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-25 {
+  background-color: #703c09;
+  color: #FFFFFF; }
+
+/* line 42, /Users/M8M/Sites/pheme-pattern-library/assets/sass/1_basics/_colors.scss */
+.topic-color-26 {
   background-color: #460641;
-  color: #ffffff; }
+  color: #FFFFFF; }
 
 /*------------------------------------*    $FRAGMENTS
 \*------------------------------------*/
