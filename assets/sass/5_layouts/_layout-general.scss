@@ -147,12 +147,58 @@
                 margin-right: 230px;
             }
 
+            @include media($large) {
+                margin-right: 230px;
+            }
+
             @include media($small-down) {
 
                 .toolbox {
                     display: block;
                 }
+
             }
+
+            &.phemes {
+
+                @include media($small) {
+                    margin-right: 222px;
+                }
+
+                @include media($medium) {
+                    margin-right: 230px;
+                }
+
+                @include media($xxlarge) {
+                    margin-right: 830px;
+                }
+
+                .toolbox {
+
+                    @include media($xlarge) {
+                        right: 24px;
+                    }
+
+                    @include media($xxlarge) {
+                        right: 624px;
+                    }
+
+                }
+
+            }
+
+            &.pheme-single {
+
+                @include media($small) {
+                    margin-right: 0;
+                }
+
+                @include media($xxlarge) {
+                    margin-right: 1050px;
+                }
+
+            }
+
         }
 
         .toolbar {
