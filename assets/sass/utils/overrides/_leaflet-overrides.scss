@@ -20,15 +20,23 @@
         color: $white !important;
     }
 
-    .leaflet-popup-content-wrapper,
+    /*.leaflet-popup-content-wrapper,
     .leaflet-popup-tip {
         @include no-shadow;
         background: none;
         padding: 0;
-    }
+    }*/
 
     .leaflet-popup-content {
-        margin: 0;
+        margin: 1em;
+        p.text {
+            margin: 0.2em 0;
+        }
+        p.user {
+            margin: 0.2em 0;
+            font-weight: bold;
+            font-style: italic;
+        }
     }
 
     a.leaflet-popup-close-button {
