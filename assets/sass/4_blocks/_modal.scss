@@ -38,6 +38,25 @@
 
    .modal-body {
        overflow-y: auto;
+
+       &.twitter-modal {
+
+           .twitter-tweet.twitter-tweet-rendered {
+               width: 100% !important;
+               margin: 0 !important;
+           }
+
+           twitterwidget::shadow .EmbeddedTweet {
+               max-width: 100% !important;
+           }
+
+           .tweet-open {
+                float: right;
+                margin: 24px 0;
+           }
+
+       }
+
    }
 
    .modal-trigger-close {
@@ -125,6 +144,7 @@
            display: block;
        }
    }
+
 }
 
 .modal-overlay {

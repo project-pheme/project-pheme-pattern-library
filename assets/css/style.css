@@ -7325,77 +7325,88 @@ span[data-fieldgroup-target].init.active {
   /* line 39, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window .modal-body {
     overflow-y: auto; }
-  /* line 43, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    /* line 44, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    .modal-window .modal-body.twitter-modal .twitter-tweet.twitter-tweet-rendered {
+      width: 100% !important;
+      margin: 0 !important; }
+    /* line 49, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    .modal-window .modal-body.twitter-modal twitterwidget::shadow .EmbeddedTweet {
+      max-width: 100% !important; }
+    /* line 53, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    .modal-window .modal-body.twitter-modal .tweet-open {
+      float: right;
+      margin: 24px 0; }
+  /* line 62, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window .modal-trigger-close {
     position: absolute;
     top: 24px;
     right: 16px;
     margin-top: -8px; }
     @media screen and (min-width: 30em) {
-      /* line 43, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+      /* line 62, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
       .modal-window .modal-trigger-close {
         right: 24px; } }
-  /* line 54, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+  /* line 73, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window .tabs-menu {
     margin-right: -16px;
     margin-bottom: 24px;
     margin-left: -16px; }
     @media screen and (min-width: 64em) {
-      /* line 54, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+      /* line 73, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
       .modal-window .tabs-menu {
         margin-right: -24px;
         margin-left: -24px; } }
-  /* line 65, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+  /* line 84, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window .form-sheet {
     background-color: #FFFFFF; }
-  /* line 69, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+  /* line 88, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window .listing {
     border-radius: 2px 2px 2px 2px;
     border: 1px solid #D6D5D2;
     background-color: #EEEEEE;
     margin-bottom: 16px; }
     @media screen and (min-width: 64em) {
-      /* line 69, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+      /* line 88, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
       .modal-window .listing {
         margin-bottom: 24px; } }
-    /* line 79, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    /* line 98, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
     .modal-window .listing .listing-heading {
       border-bottom: 1px solid #D6D5D2;
       background-color: #D6D5D2;
       padding: 16px; }
       @media screen and (min-width: 64em) {
-        /* line 79, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+        /* line 98, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
         .modal-window .listing .listing-heading {
           padding: 16px 24px; } }
-      /* line 88, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+      /* line 107, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
       .modal-window .listing .listing-heading + .listing-item {
         margin-top: 0; }
-    /* line 93, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    /* line 112, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
     .modal-window .listing .listing-item {
       border-bottom-color: #D6D5D2; }
-  /* line 100, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+  /* line 119, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window .form-field:last-child {
     margin-bottom: 16px; }
-  /* line 105, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+  /* line 124, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window .postcard {
     margin-bottom: 24px; }
-  /* line 109, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+  /* line 128, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window [data-toggle] {
     color: #373E46; }
-    /* line 112, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    /* line 131, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
     .modal-window [data-toggle]:hover {
       color: #0a0b0d; }
-    /* line 116, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    /* line 135, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
     .modal-window [data-toggle].active {
       display: none; }
-  /* line 121, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+  /* line 140, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
   .modal-window .toggle-content {
     display: none; }
-    /* line 124, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+    /* line 143, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
     .modal-window .toggle-content.active {
       display: block; }
 
-/* line 130, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
+/* line 150, /Users/M8M/Sites/pheme-pattern-library/assets/sass/4_blocks/_modal.scss */
 .modal-overlay {
   position: fixed;
   top: 0;
